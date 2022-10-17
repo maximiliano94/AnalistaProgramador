@@ -70,7 +70,8 @@ lista2.remove(4)
 #metodo para saber el largo de un array
 #print(len(lista), len(lista2))
 #--------------------------------------
-#otra forma 
+#otra forma
 largoLista=len(lista)
 largoLista2=len(lista2)
-print(largoLista,largoLista2)
+#print(largoLista,largoLista2)
+#-----------------------------------------

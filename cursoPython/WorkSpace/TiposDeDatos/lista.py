@@ -56,4 +56,5 @@ lista.append(4)
 #metodo para copiar una lista
 lista2=lista.copy()
 
-print(lista,lista2)
+#otros mmetodos
+#----------------------------------------
