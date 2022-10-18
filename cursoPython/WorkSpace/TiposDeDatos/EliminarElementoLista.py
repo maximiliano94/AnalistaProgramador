@@ -5,6 +5,9 @@
     #print("esto esto no  se  imprime")
 #--------------------------------------------------------
   # lo siguente es una variable
+from itertools import count
+
+
 x=5
 y="perro chuleta"
 #esto es como hacer una referencia  llamar una variable 
@@ -46,3 +49,44 @@ conDecimales=20.5 # esto es un flotatante
 complejo=1j #numeros complejos
 #print(entero,conDecimales,complejo,palabra,fraces)
 #----------------------------------------------------------
+#lista
+lista=['hola','perro','chuleta']
+#metodos para trabajar con listas 
+#para  agregar un elemento 
+lista.append(4)
+#limpia la lista
+#lista.clear()
+#metodo para copiar una lista
+lista2=lista.copy()
+
+#otros mmetodos
+#----------------------------------------
+# metodos para contar una lista 
+#print(lista,lista2.count(2))
+
+#elimina un elemento de la lista
+lista2.remove(4)
+
+#metodo para saber el largo de un array
+#print(len(lista), len(lista2))
+#--------------------------------------
+#otra forma
+largoLista=len(lista)
+largoLista2=len(lista2)
+#print(largoLista,largoLista2)
+#-----------------------------------------
+# las listas  los array  se componen de indices estos comienzan del 0 
+#em adelante
+# para acceder a un elemento de la lista 
+#print(lista[2])
+#--------------------------------------------------
+        #ELIMINAR ELEMENTOS DE UNA LISTA
+#-------------------------------------------------
+#elimina el ultimo elemento de la lista
+#lista.pop()
+#lista.pop()
+#elimina un elemento especifico del array/lista
+#lista.remove('hola')
+#lista.remove(4)
+#print(lista)
+#------------------------------------------------------

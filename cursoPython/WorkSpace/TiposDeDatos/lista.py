@@ -47,6 +47,7 @@ complejo=1j #numeros complejos
 #print(entero,conDecimales,complejo,palabra,fraces)
 #----------------------------------------------------------
 #lista
+#------------------------------------------------------------
 lista=[1,2,3]
 #metodos para trabajar con listas 
 #para  agregar un elemento 
