@@ -110,6 +110,7 @@ tupla=("hola","perro","chuleta",4)
 #nose puede agregar un elemento 
 #---------------------------------------------------
 #como transformar una tupla en una lista?
-listaTuplas=list(tupla)
-listaTuplas.append("chimuela")
-print(listaTuplas)
+#listaTuplas=list(tupla)
+#listaTuplas.append("chimuela")
+#print(listaTuplas)
+#---------------------------------------------------------------
