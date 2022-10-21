@@ -187,7 +187,7 @@ perros={
     "Chueleta":chuleta
 }
 #print(perros)
-#otra forma de crear diccionario
+#otra forma de crear diccionario funcion dict
 perritosLindos=dict(nombre="chuleta",edad=10)
 print(perritosLindos)
 
