@@ -5,6 +5,7 @@
     #print("esto esto no  se  imprime")
 #--------------------------------------------------------
   # lo siguente es una variable
+from ctypes.wintypes import PINT
 from itertools import count
 
 
@@ -96,3 +97,66 @@ largoLista2=len(lista2)
 #lista.sort()# ingresa un elemento  en la parte del medio de la lista
 #print(lista)
 #--------------------------------------------------------------------
+                       #Tuplas
+#--------------------------------------------------------------------
+# esto  es similar a una lista con la unca diferencias que estas
+# no se pueden modificar
+# esta se crea de la esta forma
+tupla=("hola","perro","chuleta",4)
+#metodos para las tuplas
+#print(tupla.count("hola"))#muestra que numero  se elemento 
+#print(tupla.index("perro"))
+#devuelve el indice donde este se encuentra
+#nose puede agregar un elemento 
+#---------------------------------------------------
+#como transformar una tupla en una lista?
+#listaTuplas=list(tupla)
+#listaTuplas.append("chimuela")
+#print(listaTuplas)
+#---------------------------------------------------------------
+                       #Range
+#---------------------------------------------------------------
+
+#como declarar un rango en  pythom 
+#rango=range(6) #aca señala  el  rango de donde inicia has
+#print(rango)                       
+#------------------------------------------------------------
+                        # Diccionarios
+#------------------------------------------------------------
+# los diccionarios  son similares a las lista
+# en lugar para acceder a los elementos mediante indice  
+# sino  mediante cadena de String 
+rango=range(6)
+diccionario={
+    'nombre del perro':'chimulo',
+    'raza':'buldog ingles',
+    'edad':3
+}
+#print(diccionario)
+#print(diccionario['nombre del perro'])
+#tambien se puede usar un metodo
+#print(diccionario.get('nombre del perro'))
+
+#para modificar un elemento del diccionario
+diccionario['nombre del perro']='chuleta'
+#print(diccionario)
+#print(len(diccionario))#para saber le largo del diccionario
+#----------------------------------------------
+            #MAS SOBRE LOS DICCIONARIOS
+#----------------------------------------------
+#agregar un elemento al diccionario
+diccionario['ronronea']='si'
+print(diccionario)
+#agregar un elemento al diccionario
+#diccionario.pop('ronronea')
+#otra forma
+#diccionario.popitem()
+#del diccionario['ronronea']
+#eliminar todo el diccionario
+diccionario.clear()
+#hacer una copia
+#copiagato=diccionario.copy()
+copiagato=dict(diccionario)
+print(diccionario,copiagato)
+
+
