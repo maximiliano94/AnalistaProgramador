@@ -5,7 +5,7 @@ i=0
 '''
 while i<5:
     print(i)
-    i=i+1
+    i=i+1  aumenta el  indice en 1 o (contador)
     #o i+=1
 '''
 #---------------------------------------
@@ -13,9 +13,9 @@ while i<5:
 #---------------------------------------
 '''''
 while i<5:
- # break
+ # break    si  le pogo   el break el proceso terminara
  if i == 3:
-  continue
+  continue si  le pogo   el continue el proceso continua
 i=i+1
 print(i)
 '''
@@ -46,8 +46,14 @@ for x in range(3,30,6):
 else:
     print("hemos terminado")    
 '''
+''''
 usuarios=["pedro","juan","felipe","roberto"]
 edades=[24,25,28,30]
 for ususario in usuarios:
     for edad in edades:
        print(ususario,edad) 
+'''
+
+    
+
+
