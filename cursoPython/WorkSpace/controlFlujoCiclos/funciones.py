@@ -8,11 +8,12 @@
 #para reutilizar codigo y no volver invertar la misma solucion
 
 #como declaramos la funcion? con la palabra def
+''''
 def mifuncion():
      print("mi primera funcion")
 
 #mifuncion()
-
+'''
 # ventajas de las funciones
 # podemos ocupar argumentos
 #que es ?
@@ -51,8 +52,49 @@ def nombrecompleto(apellido,nombre):
 #nombrecompleto(nombre="perro",apellido="chuleta")
 
 #agrupas los argumentos como si fuera un diccionario
-def nombrecompleto2(**kwoargs):
+'''
+def nombrecompleto2(**kwoargs):#-> con kwoargs  puedes acceder lo 
+    #elementos de  diccionario
     print(kwoargs["nombre"],kwoargs["apellido"])
 
 nombrecompleto2(nombre="maximiliano",apellido="Jara")
+'''
+#---------------------------------------
+#          Mas Funciones
+#--------------------------------------
+'''''
+def mifuncion2(argumento="perro chuleta"):
+    print(argumento)
+'''''
+
+#mifuncion2("superman")
+#mifuncion2()
+def mifuncionLista(lista):
+ for el in lista:
+     print(el)
+#mifuncionLista(["lala","lele"])
+'''
+def concatenaNombres(lista):
+    i = ''
+    for el in lista:
+        i = i + el + ' '	
+    return i # siempre retornar un valor se retotn el indice sino no 
+    #retorna nada
+#nombres = concatenaNombres(['Chanchito', 'Feliz'])
+#print(nombres)
+'''
+#------------------------------------------------
+#                 Recursividad
+# ----------------------------------------------
+ 
+def recursion(i):
+    if(i < 1):
+        return i
+    print(i)
+    recursion(i - 1)
+
+recursion(6)
+#la recusividad sive para trabajar con colecciones de datos
+# reintentar  la conexion a uma base de datos  en caso qeu esta falle
+# o cuando queremos hacer un procesaniento en bach
 
