@@ -99,7 +99,7 @@ admin.SuperSaludo()
 #------------------------------------
 #  ejercicio 
 #------------------------------------
-
+'''''
 class Usuario:
  def __init__(self, nombre, apellido):# ESTE METODO SE OCUPA PARA QUE LOS
         self.nombre = nombre          # PARA  LOS DATOS NO SE DUPLIQUE
@@ -115,7 +115,7 @@ usuario = Usuario('Felipe', 'Feliz') # ESTO UNA INSTANCIA DE UN OBJETO
 class Admin(Usuario):
         def  SuperSaludo(self):
                 print("hola me llamo",self.nombre,"y soy adminstrador")
-
+'''
 
 '''''
 #para llamar un metodo 
@@ -130,6 +130,7 @@ admin.SuperSaludo()
 #no se peuede llamar los metodos desde las clases hijas
 #usuario.SuperSaludo()
 '''
+'''''
 class Animal:
     def __init__(self, nombre, onomatopeya):
         self.nombre = nombre
@@ -143,6 +144,44 @@ class Gato(Animal):
 
 class Perro(Animal):
     tipo = 'perro'
+    
+
+class Canario(Animal):
+    tipo = 'canario'
+
+
+gato=Gato("mancha","maullido")
+gato.saludo()
+perro=Perro("chuleta","ladrido")
+perro.saludo()
+canario=Canario("fly","silvido")
+canario.saludo()
+'''
+#--------------------------------------
+# Extendiendo el metodo init del padre
+#--------------------------------------
+class Animal:
+    def __init__(self, nombre, onomatopeya):
+        self.nombre = nombre
+        self.onomatopeya = onomatopeya
+    def saludo(self):
+        print('Hola, soy un', self.tipo, 'y mi sonido es el', self.onomatopeya)
+
+class Gato(Animal):
+    tipo = 'gato'
+    #extender el comportamiento metodo init del padre
+    def __init__(self, nombre, onomatopeya):
+         Animal.__init__(self,nombre,onomatopeya)
+         print("hola soy un gato extendido")
+     
+
+class Perro(Animal):
+    tipo = 'perro'
+    #otra forma
+    def __init__(self, nombre, onomatopeya):
+        super().__init__(nombre, onomatopeya)
+        print("hola soy un perro extendido")
+
     
 
 class Canario(Animal):
