@@ -1,4 +1,4 @@
-mascotas=['perro chuleta',"chanchito feliz","perico pepe"]
+mascotas = ['Chanchito feliz', 'Felipe', 'Fluffy', 'Dragón']
 
 def saludo(nombre):
-    print("hola", nombre)
+    print('hola!', nombre)
