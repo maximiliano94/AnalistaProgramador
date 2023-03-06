@@ -1,0 +1,24 @@
+body {
+    background-color: aliceblue;
+    
+}
+#parrafo {
+    color: red;
+
+}
+.etiqueta{
+    color: aquamarine
+}
+.caja{
+    margin: 8px;
+    padding: 8px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: blue;
+    border-left: 6px solid blanchedalmond;
+    background-color: #5070c6;
+    border-radius: 8px;
+    width:100px;
+    height: 100px;
+    color: crimson;
+}
