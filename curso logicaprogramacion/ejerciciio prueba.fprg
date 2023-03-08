@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maxib"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-08 02:28:45 "/>
+        <attribute name="created" value="bWF4aWI7REVTS1RPUC1HT0JOSUFTOzIwMjMtMDMtMDc7IjA5OjA4OjU1ICI7MjgyNg=="/>
+        <attribute name="edited" value="bWF4aWI7REVTS1RPUC1HT0JOSUFTOzIwMjMtMDMtMDg7IjAyOjI4OjQ1ICI7MTsyOTI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nacimientoPedro" type="Integer" array="False" size=""/>
+            <assign variable="nacimientoPedro" expression="2008"/>
+            <declare name="a&#241;oActual" type="Integer" array="False" size=""/>
+            <assign variable="a&#241;oActual" expression="2023"/>
+            <declare name="edadCarnet" type="Integer" array="False" size=""/>
+            <assign variable="edadCarnet" expression="18"/>
+            <declare name="edadPedro" type="Integer" array="False" size=""/>
+            <assign variable="edadPedro" expression="a&#241;oActual-nacimientoPedro"/>
+            <if expression="edadPedro&gt;=edadCarnet">
+                <then>
+                    <output expression="&quot;pedro si puede sacar liciemcia&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;pedro no  puede sacar liciemcia (nene )&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
