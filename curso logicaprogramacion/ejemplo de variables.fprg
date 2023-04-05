@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maxib"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-10 02:05:24 "/>
+        <attribute name="created" value="bWF4aWI7REVTS1RPUC1HT0JOSUFTOzIwMjMtMDMtMDk7IjA5OjAxOjI3ICI7MjgyMA=="/>
+        <attribute name="edited" value="bWF4aWI7REVTS1RPUC1HT0JOSUFTOzIwMjMtMDMtMTA7IjAyOjA1OjI0ICI7MTsyOTE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="precioAudi" type="Real" array="False" size=""/>
+            <assign variable="precioAudi" expression="25000.50"/>
+            <declare name="precioMercedes" type="Real" array="False" size=""/>
+            <assign variable="precioMercedes" expression="42000.75"/>
+            <declare name="sumaCoches" type="Real" array="False" size=""/>
+            <assign variable="sumaCoches" expression="precioAudi+precioMercedes"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,37 @@
+Título del curso: Fundamentos esenciales de la programación
+
+Descripción: Aprende a desarrollar aplicaciones informáticas en cualquier lenguaje de programación con este curso en el que te explicamos, de la manera más clara y directa posible, cuáles son los componentes comunes a cualquier lenguaje y cuáles son los pasos que tienes que dar para convertir cualquier idea en tu cabeza en una aplicación informática.
+
+
+***********************************************
+Capítulo: 1. La programación como concepto
+***********************************************
+
+
+-----------------------------------------------
+Vídeo: En qué consiste el proceso de programar
+-----------------------------------------------
+Hora de la nota:    Texto de la nota:              
+
+0:00:25            el  proceso  de programar consiste en instrucción 
+
+0:00:45            programar es dar  instrucciones concisas  ordenadas   y adaptadas a nivel de procesamiento de cada maquina para completar una tarea 
+
+0:01:05            el  lenguaje nos permite a  la maquina entender lo que dices 
+
+0:01:18            el  arte de programar  es descomponer una tarea o idea
+en tareas o ideas mas pequeña 
+compuestos por pasos a los que llamaremos instrucciones 
+
+0:01:25            es de decir  plasmar  una idea  en pequeños pasos y plasmarlos en orden correcto 
+
+0:01:37            Resumen
+- Programar se basa en instrucciones
+- cada paso  es una instrucción
+- conjunto de instrucciones  que solucionan un problemas
+- lenguaje de programación es el idioma con el cual se comunica la maquina  
+
+0:01:46            algoritmos : son un conjunto  o grupo de instrucciones que solucionan un problema o completan una tarea 
+
+0:01:52            lenguaje de programación es el idioma con el cual se comunica la maquina 
+
