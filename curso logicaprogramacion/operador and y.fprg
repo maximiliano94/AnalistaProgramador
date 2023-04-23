@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev Escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-14 10:56:41 "/>
+        <attribute name="created" value="RGV2IEVzY3JpdG9yaW87REVWLUVTQ1JJVE9SSU87MjAyMy0wNC0xNDsiMTA6NTg6MTcgIjszNjEw"/>
+        <attribute name="edited" value="RGV2IEVzY3JpdG9yaW87REVWLUVTQ1JJVE9SSU87MjAyMy0wNC0xNDsiMTA6NTY6NDEgIjsxOzM3MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="paisPersona" type="String" array="False" size=""/>
+            <input variable="paisPersona"/>
+            <assign variable="paisPersona" expression="paisPersona"/>
+            <declare name="edadPersona" type="Integer" array="False" size=""/>
+            <input variable="edadPersona"/>
+            <assign variable="edadPersona" expression="18"/>
+            <if expression="edadPersona&gt;=18 &amp;&amp; paisPersona ==&quot;espa&#241;a&quot;">
+                <then>
+                    <output expression="&quot;enorabuena usted puede ingresar al ejercito &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;lo sentimos no puede ingresar al ejercito&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

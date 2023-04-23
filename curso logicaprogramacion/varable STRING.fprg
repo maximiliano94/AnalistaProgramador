@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev Escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-13 06:41:16 "/>
+        <attribute name="created" value="RGV2IEVzY3JpdG9yaW87REVWLUVTQ1JJVE9SSU87MjAyMy0wNC0xMzsiMDE6NDk6MTEgIjszNjAz"/>
+        <attribute name="edited" value="RGV2IEVzY3JpdG9yaW87REVWLUVTQ1JJVE9SSU87MjAyMy0wNC0xMzsiMDY6NDE6MTYgIjsyOzM3MTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombreUsuario" type="String" array="False" size=""/>
+            <input variable="nombreUsuario"/>
+            <assign variable="nombreUsuario" expression="nombreUsuario"/>
+            <declare name="apellidoUsuario" type="String" array="False" size=""/>
+            <input variable="apellidoUsuario"/>
+            <assign variable="apellidoUsuario" expression="apellidoUsuario"/>
+            <declare name="EdadUsuario" type="Integer" array="False" size=""/>
+            <input variable="edadUsuario"/>
+            <assign variable="edadUsuario" expression="edadUsuario"/>
+            <declare name="fechaNacimiento" type="String" array="False" size=""/>
+            <input variable="fechaNacimiento"/>
+            <assign variable="fechaNacimiento" expression="fechaNacimiento"/>
+            <output expression="nombreUsuario&amp; &quot;  &quot;&amp;apellidoUsuario&amp; &quot; &quot;&amp;edadUsuario&amp;&quot;  &quot;&amp;fechaNacimiento" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

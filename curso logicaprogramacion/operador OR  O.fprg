@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev Escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-14 11:25:48 "/>
+        <attribute name="created" value="RGV2IEVzY3JpdG9yaW87REVWLUVTQ1JJVE9SSU87MjAyMy0wNC0xNDsiMTA6NTY6NTIgIjszNjA3"/>
+        <attribute name="edited" value="RGV2IEVzY3JpdG9yaW87REVWLUVTQ1JJVE9SSU87MjAyMy0wNC0xNDsiMTE6MjU6NDggIjsxOzM3MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="paisPersona" type="String" array="False" size=""/>
+            <input variable="paisPersona"/>
+            <assign variable="paisPersona" expression="paisPersona"/>
+            <declare name="edadPersona" type="Integer" array="False" size=""/>
+            <input variable="edadPersona"/>
+            <assign variable="edadPersona" expression="edadPersona"/>
+            <if expression="paisPersona==&quot;espa&#241;a&quot; || edadPersona&gt;=18">
+                <then>
+                    <output expression="&quot;entra&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;lo siento no entras&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

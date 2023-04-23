@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev Escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-11 10:01:43 "/>
+        <attribute name="created" value="RGV2IEVzY3JpdG9yaW87REVWLUVTQ1JJVE9SSU87MjAyMy0wNC0xMTsiMDg6MDY6NDQgIjszNjA3"/>
+        <attribute name="edited" value="RGV2IEVzY3JpdG9yaW87REVWLUVTQ1JJVE9SSU87MjAyMy0wNC0xMTsiMTA6MDE6NDMgIjsxOzM3MDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="precioAudi" type="Real" array="False" size=""/>
+            <assign variable="precioAudi" expression="2230.23"/>
+            <declare name="precioCasa" type="Real" array="False" size=""/>
+            <assign variable="precioCasa" expression="22345.67"/>
+            <declare name="sumaProducto" type="Real" array="False" size=""/>
+            <assign variable="sumaProducto" expression="precioAudi+precioCasa"/>
+        </body>
+    </function>
+</flowgorithm>
