@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-24 10:10:27 PM"/>
+        <attribute name="created" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMjQ7MDY6NDU6MTggUE07MzgxMA=="/>
+        <attribute name="edited" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMjQ7MTA6MTA6MjcgUE07MTszOTA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Texto" type="String" array="False" size=""/>
+            <input variable="Texto"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="numeroVeces" type="Integer" array="False" size=""/>
+            <input variable="numeroVeces"/>
+            <for variable="contador" start="1" end="numeroVeces" direction="inc" step="1">
+                <output expression="texto" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

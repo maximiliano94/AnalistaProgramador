@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-28 01:08:50 "/>
+        <attribute name="created" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDQtMjc7IjA3OjUwOjIxICI7MzcxNA=="/>
+        <attribute name="edited" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDQtMjg7IjAxOjA4OjUwICI7MTszODIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="primerNumero" type="Real" array="False" size=""/>
+            <declare name="segundoNumero" type="Real" array="False" size=""/>
+            <input variable="primerNumero"/>
+            <input variable="segundoNumero"/>
+            <declare name="tipoOperacion" type="String" array="False" size=""/>
+            <input variable="tipoOperacion"/>
+            <if expression="tipoOperacion== &quot;suma&quot;">
+                <then>
+                    <declare name="resultadoSuma" type="Real" array="False" size=""/>
+                    <assign variable="resultadoSuma" expression="primerNumero+segundoNumero"/>
+                    <output expression="&quot;el resultado de suma es&quot; &amp; &quot; &quot;&amp; resultadoSuma" newline="True"/>
+                </then>
+                <else>
+                    <if expression="tipoOperacion == &quot;resta&quot;">
+                        <then>
+                            <declare name="resultadoResta" type="Real" array="False" size=""/>
+                            <assign variable="resultadoResta" expression="primerNumero-segundoNumero"/>
+                            <output expression="&quot;el resultado de la  resta es&quot; &amp; &quot; &quot;&amp; resultadoResta" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="tipoOperacion == &quot;multiplicar&quot;">
+                                <then>
+                                    <declare name="resultadoMultiplicar" type="Real" array="False" size=""/>
+                                    <assign variable="resultadoMultiplicar" expression="primerNumero-segundoNumero"/>
+                                    <output expression="&quot;el resultado de la  resta es&quot; &amp; &quot; &quot;&amp; resultadoMultiplicar" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="tipoOperacion == &quot;dividir&quot;">
+                                        <then>
+                                            <declare name="resultadoDividir" type="Real" array="False" size=""/>
+                                            <assign variable="resultadoDividir" expression="primerNumero-segundoNumero"/>
+                                            <output expression="&quot;el resultado de la  resta es&quot; &amp; &quot; &quot;&amp; resultadoDividir" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Error no ha ingresado  una operacion valida&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

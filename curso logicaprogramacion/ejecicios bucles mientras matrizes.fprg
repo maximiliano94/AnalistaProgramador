@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-29 10:31:44 "/>
+        <attribute name="created" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMjk7IjA4OjU4OjE0ICI7MzcyOA=="/>
+        <attribute name="edited" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMjk7IjEwOjMxOjQ0ICI7MTszODIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombrePonentes" type="String" array="True" size="5"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="nombrePonente" type="String" array="False" size=""/>
+            <for variable="contador" start="0" end="4" direction="inc" step="1">
+                <input variable="nombrePonente"/>
+                <assign variable="nombrePonentes[contador]" expression="nombrePonente"/>
+            </for>
+            <declare name="busqueda" type="String" array="False" size=""/>
+            <input variable="busqueda"/>
+            <declare name="contador2" type="Integer" array="False" size=""/>
+            <assign variable="contador2" expression="0"/>
+            <declare name="encontrado" type="Boolean" array="False" size=""/>
+            <assign variable="encontrado" expression="false"/>
+            <while expression="contador2&lt;5 &amp;&amp; encontrado==false">
+                <if expression="nombrePonentes[contador2] ==busqueda">
+                    <then>
+                        <assign variable="encontrado" expression="true"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="contador2" expression="contador2 +1"/>
+            </while>
+            <if expression="encontrado==true">
+                <then>
+                    <output expression="&quot;el usuario ha sido encontrado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Error usuario no encontrado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

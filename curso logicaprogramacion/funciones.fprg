@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-30 08:08:53 "/>
+        <attribute name="created" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMzA7IjA3OjUwOjA3ICI7MzcxMw=="/>
+        <attribute name="edited" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMzA7IjA4OjA4OjUzICI7MTszODI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="elemento1" type="Integer" array="False" size=""/>
+            <declare name="elemento2" type="Integer" array="False" size=""/>
+            <input variable="elemento1"/>
+            <input variable="elemento2"/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <assign variable="resultado" expression="suma(elemento1,elemento2)"/>
+        </body>
+    </function>
+    <function name="suma" type="Integer" variable="resultado">
+        <parameters>
+            <parameter name="sumando1" type="Integer" array="False"/>
+            <parameter name="sumando2" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <assign variable="resultado" expression="sumando1+ sumando2"/>
+        </body>
+    </function>
+</flowgorithm>

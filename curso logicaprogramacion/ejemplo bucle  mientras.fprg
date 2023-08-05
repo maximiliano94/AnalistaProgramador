@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-18 06:48:31 PM"/>
+        <attribute name="created" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMTg7MDM6NDA6NTggUE07MzgwOQ=="/>
+        <attribute name="edited" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMTg7MDY6NDg6MzEgUE07MTszOTE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="listaPonentes" type="String" array="True" size="5"/>
+            <assign variable="listaPonentes[0]" expression="&quot;pedro&quot;"/>
+            <assign variable="listaPonentes[1]" expression="&quot;juan&quot;"/>
+            <assign variable="listaPonentes[2]" expression="&quot;Daniel&quot;"/>
+            <assign variable="listaPonentes[3]" expression="&quot;Carlos&quot;"/>
+            <assign variable="listaPonentes[4]" expression="&quot;Diego&quot;"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <assign variable="contador" expression="0"/>
+            <while expression="contador &lt;=4">
+                <output expression="&quot;el expocitor es&quot;  &amp; listaPonentes[contador]" newline="True"/>
+                <assign variable="contador" expression="contador+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

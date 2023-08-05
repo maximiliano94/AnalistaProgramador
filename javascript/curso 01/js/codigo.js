@@ -1,0 +1,2 @@
+recipiente="dalto"
+alert(recipiente);

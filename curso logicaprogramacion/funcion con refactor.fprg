@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-31 01:40:04 "/>
+        <attribute name="created" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMzA7IjA4OjA5OjAwICI7MzcxMQ=="/>
+        <attribute name="edited" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMzE7IjAxOjQwOjA0ICI7MTszODEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ladoCuadrado" type="Real" array="False" size=""/>
+            <input variable="ladoCuadrado"/>
+            <call expression="imprimirArea(ladoCuadrado,areaCuadrado(ladoCuadrado))"/>
+            <declare name="ladoCuadrado2" type="Integer" array="False" size=""/>
+            <input variable="ladoCuadrado2"/>
+            <call expression="imprimirArea(ladoCuadrado2,areaCuadrado(ladoCuadrado2))"/>
+        </body>
+    </function>
+    <function name="areaCuadrado" type="Real" variable="area">
+        <parameters>
+            <parameter name="lado" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="lado*lado"/>
+        </body>
+    </function>
+    <function name="imprimirArea" type="None" variable="">
+        <parameters>
+            <parameter name="lado" type="Real" array="False"/>
+            <parameter name="areaCuadrado" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;El area del cuadrado, con lado:&quot;&amp;lado&amp;&quot; es :&quot;&amp;areaCuadrado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

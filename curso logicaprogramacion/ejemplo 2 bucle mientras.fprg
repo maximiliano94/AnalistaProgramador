@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev escritorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-18 07:04:27 PM"/>
+        <attribute name="created" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMTg7MDY6NTE6NDUgUE07MzgxMA=="/>
+        <attribute name="edited" value="RGV2IGVzY3JpdG9yaW87REVTS1RPUC1CUE1UQ01QOzIwMjMtMDUtMTg7MDc6MDQ6MjcgUE07MTszOTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="listaNumeros" type="Integer" array="True" size="5"/>
+            <assign variable="listaNumeros[0]" expression="2"/>
+            <assign variable="listaNumeros[1]" expression="4"/>
+            <assign variable="listaNumeros[2]" expression="6"/>
+            <assign variable="listaNumeros[3]" expression="8"/>
+            <assign variable="listaNumeros[4]" expression="10"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <assign variable="contador" expression="0"/>
+            <while expression="contador&lt;5">
+                <output expression="&quot;el numero es&quot;&amp; &quot;  &quot;&amp; listaNumeros[contador]" newline="True"/>
+                <assign variable="contador" expression="contador+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
